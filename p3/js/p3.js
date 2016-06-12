@@ -25,8 +25,9 @@ var copia_arreglo = function(array) {
 }
 
 
-var arr1 = []
+var arr1 = [21,22,23]
+console.log("arr1 antes de la copia= "+arr1)
 var arr2 = copia_arreglo(arr1)
-arr1.push(23)
+arr2.push(24)
 console.log("arr1= "+arr1)
 console.log("arr2= "+arr2)
