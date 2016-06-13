@@ -12,3 +12,7 @@ var suma_arreglo = function(array) {
     return suma
   }
 }
+
+var numeros = [1,2,3,4,5,6]
+var suma = suma_arreglo(numeros)
+console.log(suma)
